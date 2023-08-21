@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const InputDiv = styled.div`
+export const MyInput = styled.input`
     border-radius: 5px;
     border: 1px solid gray;
     width: 100%;
@@ -16,6 +16,7 @@ export const KeyDiv = styled.div`
     vertical-align: middle;
     text-align: center;
     border-radius: 5px;
+    border: 1px solid gray;
     margin: 3px;
     &:hover {
         background-color: antiquewhite;
